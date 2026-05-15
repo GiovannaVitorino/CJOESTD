@@ -1,6 +1,6 @@
 /*A clínica agora atende idosos, gestantes e pessoas com deficiência com prioridade —
 antes dos demais, mesmo que tenham chegado depois.
-Use a deque (#include<deque>) — ela permite inserção e remoção em ambas
+Use a deque (#include<deque>) — ela permite inserção e remoção em ambas,
 as extremidades, combinando fila e pilha em uma só estrutura. */
 #include <iostream>
 #include <deque>
