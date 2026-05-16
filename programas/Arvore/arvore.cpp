@@ -75,16 +75,16 @@ int main() {
     raiz = inserir(raiz, 10);
     raiz = inserir(raiz, 14);
 
-    cout << "Buscar 6: " << (buscar(raiz, 6) ? "Encontrado" : "Não encontrado") << endl;
-    cout << "Buscar 5: " << (buscar(raiz, 5) ? "Encontrado" : "Não encontrado") << endl;
+    cout << "Buscar 6: " << (buscar(raiz, 6) ? "Encontrado" : "Nao encontrado") << endl;
+    cout << "Buscar 5: " << (buscar(raiz, 5) ? "Encontrado" : "Nao encontrado") << endl;
 
-    cout << "\nPré-ordem: ";
+    cout << "\nPre-ordem: ";
     preOrdem(raiz);
 
-    cout << "\nIn-ordem: ";
+    cout << "\nOrdem: ";
     inOrdem(raiz);
 
-    cout << "\nPós-ordem: ";
+    cout << "\nPos-ordem: ";
     posOrdem(raiz);
 
     // Liberar memória (exemplo simples)
